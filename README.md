@@ -96,6 +96,7 @@ you will find under src\test\java two java files
 		- teardown()
  2) RegistrationTest.java
  		- Setup()
-		- Register_new_user_valid()
-		- Register_new_user_valid_using_excel()
+		- Register_new_user_valid() // this is for testing with data inside code so don't count it
+		- Register_new_user_valid_using_excel() // this is the one you eill run 
+		Note: when registering a new user with correct email the process will not continue as the email facebook sends verification code to the email 
 		- teardown()

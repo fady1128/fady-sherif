@@ -18,7 +18,7 @@ Second Part:
      -- this sheet contains list of bugs i found and Mention (clear title - reproduce steps - needed attachments - affected devices - network - severity and priority) 
      
 Third Part:
-you will find a folder called automation task containg all test automation implementation inside
+you will find a folder called Instabug_Task containg all test automation implementation inside
 
 follow the follwoing steps please:
 
@@ -58,4 +58,8 @@ follow the follwoing steps please:
 
   5) Run "mvn -version" to verify that it is correctly installed 
 
-3) 
+3) you need to check that this path contains chromedriver.exe i attached Instabug_Task\Dependencies 
+4) you need to update two things in this path in Instabug_Task\src\main\java\utils.java when you open it
+    -- CHROME_LOCATION: with your chromedriver.exe location in your pc
+    -- EXCEL_PATH: TestDataUsers.xls with your location in your pc
+    -- Note TestDataUsers.xls should be in format for 97-2003 excel greater that this is out of scope

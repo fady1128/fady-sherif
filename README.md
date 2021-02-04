@@ -66,8 +66,11 @@ follow the follwoing steps please:
     
 5) About the solution itself
 Note: you will find above each function its comment of what this function is doing
---- i am using POM model and using data driven to read data from excel
+--- it is a Maven project and i am using POM model and using also data driven to read data from excel
 Note: generally i used the following url as mentioned in task https://developers.facebook.com/docs/development/build-and-test/test-users and created a user to test with and this user you will find in excel file called TestDataUsers.xls sheet called 'Login_Users' 
+
+you will find under Instabug_Task folder\pom.xml 
+ 1) dependencies are added
 
 you will find under src\main\java three java files 
  1) LoginPage.java

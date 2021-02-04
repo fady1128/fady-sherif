@@ -62,16 +62,40 @@ follow the follwoing steps please:
 4) you need to update two things in this path in Instabug_Task\src\main\java\utils.java when you open it
     -- CHROME_LOCATION: with your chromedriver.exe location in your pc
     -- EXCEL_PATH: TestDataUsers.xls with your location in your pc
-    -- Note TestDataUsers.xls should be in format for 97-2003 excel greater that this is out of scope
+    -- Note TestDataUsers.xls should be in format for 97-2003 if you used excel version greater that this is out of scope
     
 5) About the solution itself
 Note: you will find above each function its comment of what this function is doing
---- i am using POM model 
+--- i am using POM model and using data driven to read data from excel
+Note: generally i used the following url as mentioned in task https://developers.facebook.com/docs/development/build-and-test/test-users and created a user to test with and this user you will find in excel file called TestDataUsers.xls sheet called 'Login_Users' 
+
 you will find under src\main\java three java files 
  1) LoginPage.java
+     functions: - LoginPage()
+                - ReadExcelAndLogin()
+		- ClickOnLoginButton()
+		- getLoginText()
  2) RegistrationPage.java
+      		- RegistrationPage()
+		- SetFirstname()
+		- SetLastname()
+		- ClickOnCreateButton()
+		- SetEmail()
+		- SetConfirmEmail()
+		- SetPassword()
+		- SetDate()
+		- SetGender()
+		- ClickOnSignUpButton()
+		- ReadExcelAndRegister()
  3) util.java
  
 you will find under src\test\java two java files 
  1) LoginTest.java
+ 		- Setup()
+		- Login_new_user_valid_using_excel()
+		- teardown()
  2) RegistrationTest.java
+ 		- Setup()
+		- Register_new_user_valid()
+		- Register_new_user_valid_using_excel()
+		- teardown()

@@ -63,3 +63,15 @@ follow the follwoing steps please:
     -- CHROME_LOCATION: with your chromedriver.exe location in your pc
     -- EXCEL_PATH: TestDataUsers.xls with your location in your pc
     -- Note TestDataUsers.xls should be in format for 97-2003 excel greater that this is out of scope
+    
+5) About the solution itself
+Note: you will find above each function its comment of what this function is doing
+--- i am using POM model 
+you will find under src\main\java three java files 
+ 1) LoginPage.java
+ 2) RegistrationPage.java
+ 3) util.java
+ 
+you will find under src\test\java two java files 
+ 1) LoginTest.java
+ 2) RegistrationTest.java

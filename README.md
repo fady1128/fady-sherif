@@ -14,8 +14,15 @@ you will find an exncel file called testplan-testcases-testBugs.xlsx containing 
 
 
 Second Part:
+3) Third sheet called Bugs
+     -- this sheet contains list of bugs i found and Mention (clear title - reproduce steps - needed attachments - affected devices - network - severity and priority) 
+     
+Third Part:
+you will find a folder called automation task containg all test automation implementation inside
 
-you need to download latest JAVA JDK 
+follow the follwoing steps please:
+
+1) you need to download latest JAVA JDK 
  
  Installing JAVA JDK 
   ----------------
@@ -32,7 +39,7 @@ you need to download latest JAVA JDK
 
   4) Run "java -version" to verify that it is correctly installed 
 
-you need to download latest MAVEN
+2) you need to download latest MAVEN
 
  Installing Maven
   ----------------
@@ -50,3 +57,5 @@ you need to download latest MAVEN
   4) Make sure JAVA_HOME is set to the location of your JDK
 
   5) Run "mvn -version" to verify that it is correctly installed 
+
+3) 

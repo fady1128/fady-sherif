@@ -103,3 +103,10 @@ you will find under src\test\java two java files
 		- Register_new_user_valid_using_excel() // this is the one you eill run 
 		Note: when registering a new user with correct email the process will not continue as the email facebook sends verification code to the email 
 		- teardown()
+Third Part:
+i downloaded the zip from the provided https://github.com/bestbuy/api-playground/ and followed the steps
+cd api-playground
+npm install
+npm start
+
+then i faced a problem with intalling sqlite3 

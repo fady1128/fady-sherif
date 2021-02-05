@@ -104,9 +104,9 @@ you will find under src\test\java two java files
 		Note: when registering a new user with correct email the process will not continue as the email facebook sends verification code to the email 
 		- teardown()
 Third Part:
-i downloaded the zip from the provided https://github.com/bestbuy/api-playground/ and followed the steps
+o downloaded nodejs latest version on my machine amd then i downloaded the zip from the provided https://github.com/bestbuy/api-playground/ and followed the steps
 cd api-playground
 npm install
 npm start
-
-then i faced a problem with intalling sqlite3 
+then i faced a problem with intalling sqlite3 you can check folder _logs
+then i searched a lot and used this URL https://github.com/mapbox/node-sqlite3/issues/612 to solve the problem but i didn't know till now to solve it
